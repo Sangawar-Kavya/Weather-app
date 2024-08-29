@@ -79,3 +79,44 @@ body{
 .weather {
     display: none;
 }
+@media screen and (max-width:500px){
+    .card{
+        width: 350px;
+        padding: 30px 25px;
+    }   
+    .search{
+        width: 90%;
+    }     
+    .search input{
+        height: 45px;
+        padding: 12px;
+    }
+    .search button{
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+        border-radius: 50%;
+    }    
+    .weather-icon{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 100px;
+    }
+    .weather h1{
+        font-size: 1em;
+    }
+    .weather h2{
+        font-size: 1em;
+    }
+    .details{
+        margin-top: 20px;
+    }
+    .details .col img{
+        width: 40px;
+        margin-right: 8px;
+    }
+    .humidity, .wind{
+        font-size: 1em;
+        margin-top: -3px;
+    }
+}
